@@ -1,7 +1,7 @@
 import crypto from "crypto";
-import message, { matchMessageMeta } from "@prettylab/db/message/message";
+import message, { matchMessageMeta } from "@prettylab/api/consts/message";
 import prisma from "@prettylab/db/db/db";
-import { verifyPassword } from "@prettylab/auth/utils/verifyPassword";
+import { verifyPassword } from "@prettylab/db/utils/verifyPassword";
 
 type Options = {
   cookieName: string;

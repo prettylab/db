@@ -1,4 +1,4 @@
-import message, { matchMessageMeta } from "@prettylab/db/message/message";
+import message, { matchMessageMeta } from "@prettylab/api/consts/message";
 
 export const POSTErrorResponse = (data?: Array<any>) => {
   return Response.json(

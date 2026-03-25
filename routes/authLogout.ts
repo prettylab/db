@@ -1,5 +1,5 @@
 import { cookies } from "next/headers";
-import message from "@prettylab/db/message/message";
+import message from "@prettylab/api/consts/message";
 import prisma from "@prettylab/db/db/db";
 
 type Options = {

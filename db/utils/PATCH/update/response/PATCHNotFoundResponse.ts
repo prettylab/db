@@ -1,4 +1,4 @@
-import message, { matchMessageMeta } from "@prettylab/db/message/message";
+import message, { matchMessageMeta } from "@prettylab/api/consts/message";
 
 export const PATCHNotFoundResponse = () => {
   return Response.json(
